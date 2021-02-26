@@ -1,6 +1,4 @@
-import {fishCollection, getSaltWater, getFish}  from "./fishCollection.js";
-import {FishList} from "./fishlist.js";
-console.log(fishCollection);
-console.log(getSaltWater());
-//console.log(getFish());
-FishList();
+import {FishList} from "./fish/fishlist.js";
+import {tipList} from "./tips/tipList.js"
+FishList('fresh');
+tipList();
