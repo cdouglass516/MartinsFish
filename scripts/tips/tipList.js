@@ -2,7 +2,7 @@ import { getTip } from "./tipData.js";
 import { Tip } from "./tips.js";
 export const tipList = (type) => {
     const tips = getTip();
-    const contentElement = document.querySelector(".div_tip");
+    const contentElement = document.querySelector(".aside_tip");
     // Generate all of the HTML for all of the tips
     let fishHTMLRepresentations = ""
     fishHTMLRepresentations = '';
